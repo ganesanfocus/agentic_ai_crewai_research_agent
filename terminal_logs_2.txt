@@ -1,0 +1,191 @@
+==================================================
+🤖 Agentic Framework: LangGraph + CrewAI + AutoGen
+==================================================
+
+Enter your prompt (e.g., 'Research LangGraph and create a PDF'):
+> Research and generate pdf about crewAI usage in Agentic AI
+
+[LangGraph] Kicking off State Machine...
+
+
+[AGENT CHAT]
+💬 System  ──▶  Researcher
+"Starting research on: Research and generate pdf about crewAI usage in Agentic AI"
+--------------------------------------------------
+Executor (to Researcher):
+
+Research this topic and provide the raw data: Research and generate pdf about crewAI usage in Agentic AI
+
+--------------------------------------------------------------------------------
+Researcher (to Executor):
+
+
+***** Suggested tool call (8168): web_search *****
+Arguments: 
+{"query": "crewAI usage in Agentic AI"}
+**************************************************
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> EXECUTING FUNCTION web_search...
+Call ID: 8168
+Input arguments: {'query': 'crewAI usage in Agentic AI'}
+
+>>>>>>>> EXECUTED FUNCTION web_search...
+Call ID: 8168
+Input arguments: {'query': 'crewAI usage in Agentic AI'}
+Output:
+Title: CrewAI
+Link: https://crewai.com/
+Snippet: CrewAI simplifies the agent production process without sacrificing the control enterprises demand. Loved by AI builders. Trusted by AI leaders. Used by 63% of ...
+
+Title: What is crewAI?
+Link: https://www.ibm.com/think/topics/crew-ai
+Snippet: The term “crew” refers to AI agents that work together to autonomously delegate tasks and ask questions among themselves, similar to a real-life work crew.
+
+Title: A Complete Guide to CREW AI and Agentic Frameworks
+Link: https://medium.com/@harshav.vanukuri/a-complete-guide-to-crew-ai-and-agentic-frameworks-unleashing-the-power-of-autonomous-ai-crews-9911f39110f5
+Snippet: It's CrewAI, an innovative agentic framework that empowers the creation of collaborative, autonomous AI agents, working together to achieve complex goals.
+
+Title: Build agentic systems with CrewAI and Amazon Bedrock
+Link: https://aws.amazon.com/blogs/machine-learning/build-agentic-systems-with-crewai-and-amazon-bedrock/
+Snippet: Agents in CrewAI are designed to work collaboratively, making autonomous decisions, delegating tasks, and using tools to execute complex ...
+
+Title: How to Build Your Own Agentic AI System Using CrewAI
+Link: https://towardsdatascience.com/how-to-build-your-own-agentic-ai-system-using-crewai/
+Snippet: CrewAI is an open-source Python framework that allows developers to build production-ready and collaborative AI agent teams to tackle complex ...
+Executor (to Researcher):
+
+***** Response from calling tool (8168) *****
+Title: CrewAI
+Link: https://crewai.com/
+Snippet: CrewAI simplifies the agent production process without sacrificing the control enterprises demand. Loved by AI builders. Trusted by AI leaders. Used by 63% of ...
+
+Title: What is crewAI?
+Link: https://www.ibm.com/think/topics/crew-ai
+Snippet: The term “crew” refers to AI agents that work together to autonomously delegate tasks and ask questions among themselves, similar to a real-life work crew.
+
+Title: A Complete Guide to CREW AI and Agentic Frameworks
+Link: https://medium.com/@harshav.vanukuri/a-complete-guide-to-crew-ai-and-agentic-frameworks-unleashing-the-power-of-autonomous-ai-crews-9911f39110f5
+Snippet: It's CrewAI, an innovative agentic framework that empowers the creation of collaborative, autonomous AI agents, working together to achieve complex goals.
+
+Title: Build agentic systems with CrewAI and Amazon Bedrock
+Link: https://aws.amazon.com/blogs/machine-learning/build-agentic-systems-with-crewai-and-amazon-bedrock/
+Snippet: Agents in CrewAI are designed to work collaboratively, making autonomous decisions, delegating tasks, and using tools to execute complex ...
+
+Title: How to Build Your Own Agentic AI System Using CrewAI
+Link: https://towardsdatascience.com/how-to-build-your-own-agentic-ai-system-using-crewai/
+Snippet: CrewAI is an open-source Python framework that allows developers to build production-ready and collaborative AI agent teams to tackle complex ...
+*********************************************
+
+--------------------------------------------------------------------------------
+Researcher (to Executor):
+
+Here is the raw data I found regarding CrewAI usage in Agentic AI:
+
+*   **CrewAI Official Website:** CrewAI simplifies the agent production process, offering control for enterprises. It's popular among AI builders and leaders. (https://crewai.com/)
+*   **IBM Think on CrewAI:** "Crew" in CrewAI refers to AI agents that collaborate, delegate tasks, and ask questions among themselves, mimicking a real-life work crew. (https://www.ibm.com/think/topics/crew-ai)
+*   **Medium Guide to CrewAI and Agentic Frameworks:** CrewAI is an innovative agentic framework that enables the creation of collaborative, autonomous AI agents to achieve complex goals. (https://medium.com/@harshav.vanukuri/a-complete-guide-to-crew-ai-and-agentic-frameworks-unleashing-the-power-of-autonomous-ai-crews-9911f39110f5)
+*   **AWS Blog on CrewAI and Amazon Bedrock:** Agents in CrewAI are designed for collaborative work, making autonomous decisions, delegating tasks, and utilizing tools to execute complex operations. (https://aws.amazon.com/blogs/machine-learning/build-agentic-systems-with-crewai-and-amazon-bedrock/)
+*   **Towards Data Science on Building Agentic AI with CrewAI:** CrewAI is an open-source Python framework that allows developers to build production-ready, collaborative AI agent teams for complex challenges. (https://towardsdatascience.com/how-to-build-your-own-agentic-ai-system-using-crewai/)
+
+I cannot generate a PDF directly. However, I have provided the raw research findings as requested.
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> TERMINATING RUN (7af21c33-368b-4826-91ae-0cec64cbcfcb): Maximum turns (2) reached
+
+[AGENT CHAT]
+💬 Researcher  ──▶  Summarizer
+"Here is the raw data I found regarding CrewAI usage in Agentic AI:
+
+*   **CrewAI Official Website:** CrewAI simplifies the agent production process, offering control for enterprises. It's popular among AI builders and leaders. (https://crewai.com/)
+*   **IBM Think on CrewAI:** "Crew" in CrewAI refer...
+[Content truncated for readability]"
+--------------------------------------------------
+Executor (to Summarizer):
+
+Summarize this raw data:
+
+Here is the raw data I found regarding CrewAI usage in Agentic AI:
+
+*   **CrewAI Official Website:** CrewAI simplifies the agent production process, offering control for enterprises. It's popular among AI builders and leaders. (https://crewai.com/)
+*   **IBM Think on CrewAI:** "Crew" in CrewAI refers to AI agents that collaborate, delegate tasks, and ask questions among themselves, mimicking a real-life work crew. (https://www.ibm.com/think/topics/crew-ai)
+*   **Medium Guide to CrewAI and Agentic Frameworks:** CrewAI is an innovative agentic framework that enables the creation of collaborative, autonomous AI agents to achieve complex goals. (https://medium.com/@harshav.vanukuri/a-complete-guide-to-crew-ai-and-agentic-frameworks-unleashing-the-power-of-autonomous-ai-crews-9911f39110f5)
+*   **AWS Blog on CrewAI and Amazon Bedrock:** Agents in CrewAI are designed for collaborative work, making autonomous decisions, delegating tasks, and utilizing tools to execute complex operations. (https://aws.amazon.com/blogs/machine-learning/build-agentic-systems-with-crewai-and-amazon-bedrock/)
+*   **Towards Data Science on Building Agentic AI with CrewAI:** CrewAI is an open-source Python framework that allows developers to build production-ready, collaborative AI agent teams for complex challenges. (https://towardsdatascience.com/how-to-build-your-own-agentic-ai-system-using-crewai/)
+
+I cannot generate a PDF directly. However, I have provided the raw research findings as requested.
+
+--------------------------------------------------------------------------------
+Summarizer (to Executor):
+
+Here is the summary of the raw data on CrewAI usage in Agentic AI:
+
+*   **Core Identity & Purpose:** CrewAI is an innovative, open-source Python framework that simplifies the creation of production-ready, collaborative AI agent teams for complex challenges.
+*   **Agentic Collaboration:** It enables AI agents to mimic a real-life work crew by collaborating, delegating tasks, asking questions, making autonomous decisions, and utilizing tools to execute complex operations.
+*   **Target Audience & Impact:** Popular among AI builders and leaders, CrewAI offers enterprises enhanced control over the agent production process, facilitating the development of sophisticated agentic systems.
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> TERMINATING RUN (e1ab1049-e2fc-4049-a1a4-4e290dbd17f9): Maximum turns (1) reached
+
+[AGENT CHAT]
+💬 Summarizer  ──▶  Doc_Creator
+"Here is the summary of the raw data on CrewAI usage in Agentic AI:
+
+*   **Core Identity & Purpose:** CrewAI is an innovative, open-source Python framework that simplifies the creation of production-ready, collaborative AI agent teams for complex challenges.
+*   **Agentic Collaboration:** It enables ...
+[Content truncated for readability]"
+--------------------------------------------------
+Executor (to Doc_Creator):
+
+Please save the following summary as a pdf document using your tool:
+
+Here is the summary of the raw data on CrewAI usage in Agentic AI:
+
+*   **Core Identity & Purpose:** CrewAI is an innovative, open-source Python framework that simplifies the creation of production-ready, collaborative AI agent teams for complex challenges.
+*   **Agentic Collaboration:** It enables AI agents to mimic a real-life work crew by collaborating, delegating tasks, asking questions, making autonomous decisions, and utilizing tools to execute complex operations.
+*   **Target Audience & Impact:** Popular among AI builders and leaders, CrewAI offers enterprises enhanced control over the agent production process, facilitating the development of sophisticated agentic systems.
+
+--------------------------------------------------------------------------------
+Doc_Creator (to Executor):
+
+
+***** Suggested tool call (3183): generate_document *****
+Arguments: 
+{"content": "Here is the summary of the raw data on CrewAI usage in Agentic AI:\n\n*   **Core Identity & Purpose:** CrewAI is an innovative, open-source Python framework that simplifies the creation of production-ready, collaborative AI agent teams for complex challenges.\n*   **Agentic Collaboration:** It enables AI agents to mimic a real-life work crew by collaborating, delegating tasks, asking questions, making autonomous decisions, and utilizing tools to execute complex operations.\n*   **Target Audience & Impact:** Popular among AI builders and leaders, CrewAI offers enterprises enhanced control over the agent production process, facilitating the development of sophisticated agentic systems.", "format_type": "pdf"}
+*********************************************************
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> EXECUTING FUNCTION generate_document...
+Call ID: 3183
+Input arguments: {'content': 'Here is the summary of the raw data on CrewAI usage in Agentic AI:\n\n*   **Core Identity & Purpose:** CrewAI is an innovative, open-source Python framework that simplifies the creation of production-ready, collaborative AI agent teams for complex challenges.\n*   **Agentic Collaboration:** It enables AI agents to mimic a real-life work crew by collaborating, delegating tasks, asking questions, making autonomous decisions, and utilizing tools to execute complex operations.\n*   **Target Audience & Impact:** Popular among AI builders and leaders, CrewAI offers enterprises enhanced control over the agent production process, facilitating the development of sophisticated agentic systems.', 'format_type': 'pdf'}
+
+>>>>>>>> EXECUTED FUNCTION generate_document...
+Call ID: 3183
+Input arguments: {'content': 'Here is the summary of the raw data on CrewAI usage in Agentic AI:\n\n*   **Core Identity & Purpose:** CrewAI is an innovative, open-source Python framework that simplifies the creation of production-ready, collaborative AI agent teams for complex challenges.\n*   **Agentic Collaboration:** It enables AI agents to mimic a real-life work crew by collaborating, delegating tasks, asking questions, making autonomous decisions, and utilizing tools to execute complex operations.\n*   **Target Audience & Impact:** Popular among AI builders and leaders, CrewAI offers enterprises enhanced control over the agent production process, facilitating the development of sophisticated agentic systems.', 'format_type': 'pdf'}
+Output:
+Document successfully saved as PDF at: output/report.pdf
+Executor (to Doc_Creator):
+
+***** Response from calling tool (3183) *****
+Document successfully saved as PDF at: output/report.pdf
+*********************************************
+
+--------------------------------------------------------------------------------
+Doc_Creator (to Executor):
+
+Your document has been successfully saved as a PDF.
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> TERMINATING RUN (0c6ff1b4-3dd1-4eb3-ab71-6120ad516269): Maximum turns (2) reached
+
+[AGENT CHAT]
+💬 Doc_Creator  ──▶  USER
+"Your document has been successfully saved as a PDF."
+--------------------------------------------------
+
+[LangGraph] Workflow Complete.
